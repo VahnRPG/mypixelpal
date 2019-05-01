@@ -1,3 +1,0 @@
-#!/bin/sh
-find /images -maxdepth 1 -mtime +7 -type f -exec rm {} \;
-find /palettes -type f -size 0 -exec rm {} \;
